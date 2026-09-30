@@ -6,9 +6,9 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Index</h1>
+    <h1>Server</h1>
 <script type="text/javascript">
-    const eventSource = new EventSource('http://localhost:3000/sse/5');
+    const eventSource = new EventSource('http://localhost:3000/sse/2');
     eventSource.onmessage = ({ data }) => {
       const message = document.createElement('li');
       message.innerText = 'New message: ' + data;
@@ -17,3 +17,5 @@
   </script>
 </body>
 </html>
+
+  

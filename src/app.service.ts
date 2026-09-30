@@ -8,7 +8,7 @@ export class AppService {
   private subject = new Subject<MessageEvent>();
 
   // Method to get the subject
-  getSubject(): Subject<object> {
+  getSubject(): Subject<any> {
     return this.subject;
   }
 }

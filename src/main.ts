@@ -10,8 +10,9 @@ async function bootstrap() {
     transport: Transport.MQTT,
     options:{
       url:"mqtt://ssgihegllh3w-bohsowxhmlsv.cedalo.dev:1883",
+      // url:"ssl://netmon.softlogic.com.au:8883",
       username:"techoverflow",
-      password:"techoverflow"
+      password:"techoverflow" 
     }
   }); 
   
